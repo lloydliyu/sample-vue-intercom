@@ -30,3 +30,18 @@
   color: #42b983;
 }
 </style>
+
+<script>
+export default {
+  created: () => {
+    window.Intercom('boot', {
+      app_id: '',
+    });
+  },
+  watch: {
+    $route() {
+      window.Intercom('update');
+    },
+  },
+};
+</script>

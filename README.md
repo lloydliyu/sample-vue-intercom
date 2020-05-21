@@ -1,5 +1,9 @@
 # sample-vue-app
 
+This is a sample way of adding Intercom into a Vue App, it does not account for server side operations.
+
+Before running ensure that you add your APP_ID to /public/index.html (line 9), and /src/App.vue (line 38).
+
 ## Project setup
 ```
 npm install
@@ -19,6 +23,3 @@ npm run build
 ```
 npm run lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
